@@ -25,7 +25,7 @@ function App() {
     })
     
     items.filter((item , index) => {
-      return index != id;
+      return index !== id;
     } )
   }
   return (
